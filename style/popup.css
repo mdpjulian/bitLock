@@ -1,0 +1,73 @@
+body {
+    width: 18rem;
+}
+
+h1 {
+    margin-left: 1rem;
+}
+
+#menu {
+    display: flex;
+}
+
+.btn {
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid #020303;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #2E4057;
+    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+    padding: 0 18px;
+
+
+
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #006570;
+}
+
+#login {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-align: left;
+    transition-property: box-shadow, background;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+    background-color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #DAE3F3;
+    border-radius: 0px;
+    color: #272C34;
+    width: 8rem;
+    cursor: text;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    height: 30px;
+
+
+
+}
+
+#login:hover {
+    box-shadow: 0px 2px 4px rgb(39 44 52 / 12%);
+}
+
+#login:focus {
+    transition-property: border-color, box-shadow, background;
+    border-color: #39414D;
+    outline: 0px;
+    box-shadow: 0 0 0 3px #c5d2e7;
+}
